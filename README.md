@@ -1,4 +1,4 @@
-# flask-up
+# simple-up
 
 simple upload webpage.
 
@@ -9,8 +9,9 @@ Flask+
 A lightweight file upload web application built with **Flask** and styled with **Tailwind CSS**. Designed for handling file uploads via both a web interface and direct API calls (PUT requests).
 
 ## Features
-**File Upload**: Upload files up to 1GB.
-**Secure Filenames**: Automatically sanitizes filenames and adds timestamps to prevent collisions.
+
+- **File Upload**: Upload files up to 1GB.
+- **Secure Filenames**: Automatically sanitizes filenames and adds timestamps to prevent collisions.
 
 ## Prerequisites
 
