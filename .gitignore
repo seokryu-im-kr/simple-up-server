@@ -1,0 +1,38 @@
+# Python / Flask
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+.env.local
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build artifacts
+static/dist/
+static/css/tailwind.css
+.webassets-cache
+.parcel-cache/
+.turbo/
+.node_repl_history
+
+# Logs
+*.log
+nohup.out
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store

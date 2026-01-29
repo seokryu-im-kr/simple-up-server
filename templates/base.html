@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <title>Seokryu's Upload</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/tailwind.css" rel="stylesheet">
+
+    <link href="/static/dist/tailwind.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/tailwind.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='fav.png') }}">
+</head>
+<body class="bg-slate-900 text-white"> 
+    <nav class="bg-slate-800 p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="h-10 w-10">
+
+            <div class="flex-grow flex justify-center gap-x-12">
+                <a href="{{ url_for('index') }}" class="text-lg font-medium text-white hover:text-gray-300 px-3 py-2">Home</a>
+                <a href="mailto:git@seokryu.kr" class="text-lg font-medium text-white hover:text-gray-300 px-3 py-2">Contact</a>
+            </div>
+
+            <div class="h-10 w-10"></div>
+        </div>
+    </nav>
+    {% block content %}{% endblock %}
+</body>
+</html>
